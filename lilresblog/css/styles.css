@@ -1,13 +1,37 @@
+* {
+  background-color: lightgray;
+ 
+}
+
 body {
-  width: 800px;
+  max-width: 900px;
 }
 
 header {
-  background: white;
+  background: lightgray;
   display: inline-block;
-  width: 800px;
+  width: 100%;
   text-align: center;
-  padding-right: 30px;
+  padding-right: 0px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 20px;
+}
+
+.head {
+  max-width: 600px;
+}
+
+.content-wrap {
+  margin-right: auto; /* 1 */
+  margin-left:  auto; /* 1 */
+
+  max-width: 600px;  /* 2 */
+
+  padding-right: 10px; /* 3 */
+  padding-left:  10px; /* 3 */
 }
 
 header p {
@@ -17,19 +41,30 @@ header p {
 .zen {
   padding-left: 10px;
   padding-right: 30px;
-  width: 220px;
-  height: 220px;
+  width: 210px;
+  height: 210px;
   float: left;
 }
 
-.clearfix {
-    overflow: auto;
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
-body {
-  background-color: lightgray;
+
+main h2, h3, p, li  {
+  padding-left: 10px;
 }
 
-.Content-wrap { 
-    Margin: auto 0;
-  }
+.bold {
+  font-weight: 700;
+}
+
+footer {
+  text-align: center;
+}
+
+footer div a {
+  padding: 10px;
+}
