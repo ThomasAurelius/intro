@@ -1,0 +1,35 @@
+body {
+  width: 800px;
+}
+
+header {
+  background: white;
+  display: inline-block;
+  width: 800px;
+  text-align: center;
+  padding-right: 30px;
+}
+
+header p {
+  font-size: 17px;
+}
+
+.zen {
+  padding-left: 10px;
+  padding-right: 30px;
+  width: 220px;
+  height: 220px;
+  float: left;
+}
+
+.clearfix {
+    overflow: auto;
+}
+
+body {
+  background-color: lightgray;
+}
+
+.Content-wrap { 
+    Margin: auto 0;
+  }
